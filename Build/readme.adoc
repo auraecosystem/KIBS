@@ -1,0 +1,86 @@
+KIBS/
+├── index.scm                    # Root KIBS manifest / registry
+├── kibs.scm                     # Main KIBS runtime
+├── kibs/
+│   ├── core/
+│   │   ├── index.scm            # Core subsystem registry
+│   │   ├── runtime.scm
+│   │   ├── config.scm
+│   │   ├── registry.scm
+│   │   ├── loader.scm
+│   │   └── context.scm
+│   │
+│   ├── compiler/
+│   │   ├── index.scm
+│   │   ├── lexer.scm
+│   │   ├── parser.scm
+│   │   ├── ast.scm
+│   │   └── compiler.scm
+│   │
+│   ├── build/
+│   │   ├── index.scm
+│   │   ├── graph.scm
+│   │   ├── resolver.scm
+│   │   ├── executor.scm
+│   │   └── pipeline.scm
+│   │
+│   ├── package/
+│   │   ├── index.scm
+│   │   ├── manifest.scm
+│   │   ├── resolver.scm
+│   │   └── repository.scm
+│   │
+│   ├── agents/
+│   │   ├── index.scm
+│   │   ├── router.scm
+│   │   ├── registry.scm
+│   │   └── executor.scm
+│   │
+│   ├── plugins/
+│   │   ├── index.scm
+│   │   └── loader.scm
+│   │
+│   ├── ai/
+│   │   ├── index.scm
+│   │   ├── models.scm
+│   │   ├── providers.scm
+│   │   └── inference.scm
+│   │
+│   └── cli/
+│       ├── index.scm
+│       ├── commands.scm
+│       └── main.scm
+│
+├── agents/
+│   ├── codex.scm
+│   ├── claude.scm
+│   ├── gemini.scm
+│   └── local.scm
+│
+├── plugins/
+│   └── index.scm
+│
+├── packages/
+│   └── index.scm
+│
+├── config/
+│   ├── default.scm
+│   ├── development.scm
+│   └── production.scm
+│
+├── scripts/
+│   ├── bootstrap.scm
+│   ├── build.scm
+│   └── test.scm
+│
+├── tests/
+│   ├── core/
+│   ├── compiler/
+│   ├── build/
+│   └── agents/
+│
+├── docs/
+├── examples/
+├── Makefile
+├── CMakeLists.txt
+└── README.md
