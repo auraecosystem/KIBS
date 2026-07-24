@@ -1,0 +1,14 @@
+KIBS
+├── kubu.iphone.gyp
+├── kubu-gyp
+├── build/
+├── toolchains/
+├── generators/
+│   ├── xcode/
+│   ├── ninja/
+│   └── make/
+├── platforms/
+│   ├── ios/
+│   ├── ipados/
+│   └── macos/
+└── src/
