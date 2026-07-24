@@ -1,4 +1,8 @@
 # KIBS
+```bash
+git clone https://chromium.googlesource.com/build
+```
+
 ```console
 KIBS/
 ├── README.md
