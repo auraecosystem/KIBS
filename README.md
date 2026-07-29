@@ -158,3 +158,146 @@ kibs/
 │
 └── config/
     └── kibs.conf
+```
+```bash
+KIBS
+│
+├── index.html
+│      └── Web UI
+│
+├── public/js/kibs.js
+│      └── Browser ↔ KIBS communication
+│
+├── index.scm
+│      └── Bootstrap + orchestration
+│
+└── kibs/
+       │
+       ├── core/
+       │    ├── kernel.scm
+       │    │     └── Executes tasks
+       │    ├── scheduler.scm
+       │    │     └── Schedules tasks
+       │    ├── events.scm
+       │    │     └── Dispatches events
+       │    └── state.scm
+       │          └── Manages runtime state
+       │
+       ├── web/
+       │    ├── server.scm
+       │    │     └── Runs HTTP server
+       │    ├── router.scm
+       │    │     └── Routes requests
+       │    └── api.scm
+       │          └── Exposes operations
+       │
+       ├── agents/
+       │    ├── agent.scm
+       │    │     └── Agent execution
+       │    ├── registry.scm
+       │    │     └── Agent discovery
+       │    └── orchestrator.scm
+       │          └── Multi-agent coordination
+       │
+       ├── services/
+       │    ├── database.scm
+       │    ├── storage.scm
+       │    ├── blockchain.scm
+       │    └── external.scm
+       │
+       └── contacts/
+            ├── vcard.scm
+            ├── parser.scm
+            ├── validator.scm
+            ├── importer.scm
+            ├── manager.scm
+            └── storage.scm
+index.html
+    │
+    │ Browser interaction
+    ▼
+kibs.js
+    │
+    │ HTTP / WebSocket
+    ▼
+server.scm
+    │
+    │ Request
+    ▼
+router.scm
+    │
+    │ Dispatch
+    ▼
+index.scm
+    │
+    ├──────────────► kernel.scm
+    │                   │
+    │                   ├──► agents/
+    │                   │
+    │                   └──► services/
+    │
+    └──────────────► contacts/
+                        │
+                        └──► inbox.vcf
+index.html
+    │
+    │ Browser interaction
+    ▼
+kibs.js
+    │
+    │ HTTP / WebSocket
+    ▼
+server.scm
+    │
+    │ Request
+    ▼
+router.scm
+    │
+    │ Dispatch
+    ▼
+index.scm
+    │
+    ├──────────────► kernel.scm
+    │                   │
+    │                   ├──► agents/
+    │                   │
+    │                   └──► services/
+    │
+    └──────────────► contacts/
+                        │
+                        └──► inbox.vcf
+                    index.scm
+                        │
+             ┌──────────┼──────────┐
+             ▼          ▼          ▼
+         Kernel       Web       Contacts
+           │           │           │
+           ▼           ▼           ▼
+        Agents      Router       vCard
+           │           │           │
+           ▼           ▼           ▼
+       Services      API        Storage
+
+BOOT
+  ↓
+CONFIGURE
+  ↓
+INITIALIZE KERNEL
+  ↓
+REGISTER SERVICES
+  ↓
+REGISTER AGENTS
+  ↓
+REGISTER ROUTES
+  ↓
+START HTTP RUNTIME
+  ↓
+ACCEPT REQUEST
+  ↓
+ROUTE REQUEST
+  ↓
+DISPATCH TO KERNEL
+  ↓
+EXECUTE AGENT / SERVICE
+  ↓
+RETURN RESPONSE
