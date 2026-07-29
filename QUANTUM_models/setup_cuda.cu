@@ -1,5 +1,4 @@
 # @title ## 🐘 HQQ
-
 # @markdown See the official [HQQ repository](https://github.com/mobiusml/hqq) for more information.
 
 # !git clone https://github.com/mobiusml/hqq.git
