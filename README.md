@@ -1,11 +1,5 @@
 # KIBS
-```bash
-git clone https://chromium.googlesource.com/build
-```
-
-```console
-KIBS/
-├── README.md
+```README.md
 ├── LICENSE
 ├── CONTRIBUTING.md
 ├── CHANGELOG.md
@@ -41,9 +35,7 @@ KIBS/
 └── docs/
     ├── architecture.md
     ├── configuration.md
-    └── toolchains.md
-
-                         KIBS SYSTEM
+    └── toolchains.md   KIBS SYSTEM
                               │
                               ▼
 ┌──────────────────────────────────────────────────────────────┐
@@ -98,8 +90,6 @@ KIBS/
 │ • Decision Systems        │     │ • Storage                  │
 │ • Task Execution          │     │ • Authentication           │
 └───────────────────────────┘     └────────────────────────────┘
-
-kibs/
 │
 ├── index.html                 # Presentation Layer
 ├── index.scm                  # System Bootstrap / Orchestrator
@@ -157,10 +147,7 @@ kibs/
 │   └── state/
 │
 └── config/
-    └── kibs.conf
-```
-```bash
-KIBS
+|   └── kibs.conf
 │
 ├── index.html
 │      └── Web UI
@@ -238,8 +225,7 @@ index.scm
     │
     └──────────────► contacts/
                         │
-                        └──► inbox.vcf
-index.html
+                        └──► inbox.vcf[index.html]
     │
     │ Browser interaction
     ▼
