@@ -98,3 +98,63 @@ KIBS/
 │ • Decision Systems        │     │ • Storage                  │
 │ • Task Execution          │     │ • Authentication           │
 └───────────────────────────┘     └────────────────────────────┘
+
+kibs/
+│
+├── index.html                 # Presentation Layer
+├── index.scm                  # System Bootstrap / Orchestrator
+│
+├── public/
+│   ├── css/
+│   │   └── kibs.css
+│   ├── js/
+│   │   └── kibs.js            # Client Bridge
+│   └── assets/
+│
+├── kibs/
+│   │
+│   ├── core/
+│   │   ├── kernel.scm         # Core Execution Engine
+│   │   ├── lifecycle.scm      # Startup / Shutdown
+│   │   ├── config.scm         # Configuration
+│   │   ├── events.scm         # Event Bus
+│   │   └── state.scm          # Runtime State
+│   │
+│   ├── web/
+│   │   ├── server.scm         # HTTP Runtime
+│   │   ├── router.scm         # Request Routing
+│   │   ├── middleware.scm     # Middleware Pipeline
+│   │   └── api.scm            # API Layer
+│   │
+│   ├── agents/
+│   │   ├── agent.scm
+│   │   ├── registry.scm
+│   │   ├── scheduler.scm
+│   │   └── orchestrator.scm
+│   │
+│   ├── services/
+│   │   ├── database.scm
+│   │   ├── storage.scm
+│   │   ├── blockchain.scm
+│   │   ├── auth.scm
+│   │   └── external.scm
+│   │
+│   └── contacts/
+│       ├── vcard.scm
+│       ├── parser.scm
+│       ├── validator.scm
+│       ├── importer.scm
+│       ├── manager.scm
+│       └── storage.scm
+│
+├── assets/
+│   └── vcard/
+│       └── inbox.vcf
+│
+├── data/
+│   ├── contacts/
+│   ├── cache/
+│   └── state/
+│
+└── config/
+    └── kibs.conf
