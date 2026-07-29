@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KIBS</title>
+  <meta
+    name="description"
+    content="KIBS — Kernel Intelligence and Backend System"
+  >
+  <link rel="stylesheet" href="/public/css/kibs.css">
+</head>
+<body>
+  <main id="kibs-app">
+    <header>
+      <h1>KIBS</h1>
+      <p>Kernel Intelligence and Backend System</p>
+    </header>
+<section id="kibs-status">
+  <p>Initializing KIBS...</p>
+</section>
+<section id="kibs-content"></section>
+  </main>
+  <script>
+    window.KIBS_CONFIG = {
+      runtime: "/index.scm",
+      api: "/api",
+      environment: "production"
+    };
+  </script>
+  <script src="/public/js/kibs.js" defer></script>
+</body>
+</html>
