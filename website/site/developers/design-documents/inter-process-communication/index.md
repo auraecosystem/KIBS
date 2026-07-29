@@ -1,0 +1,139 @@
+[website/site/developers/design-documents/inter-process-communication/index.md](https://edit.chromium.org/edit?repo=chromium%2Fwebsite%2Fmain&file=index.md&cloneRepo=chromium%2Fwebsite%3Arefs%2Fheads%2Fmain&fullPath=chromium%2Fsite%2Fdevelopers%2Fdesign-documents%2Finter-process-communication%2Findex.md)
+
+heads/main/Changes.md
+Input a file or change
+
+index.md
+×
+.eleventy.js
+×
+.firebaserc
+×
+website
+docs
+infra
+scripts
+site
+Home
+_assets
+_includes
+_stylesheets
+administrators
+android
+audio-video
+blink
+careers
+cecpq2
+chrome-apps
+chrome-os-devices-and-kernel-versions
+chrome-release-channels
+chromium-os
+chromium-projects
+conduct
+config
+contact
+developers
+devtools
+embeddedsearch
+events
+flag-ownership
+flash-roadmap
+for-testers
+geforce-now-on-chromebooks
+getting-involved
+glossary
+hsts
+infra
+irc
+irc-support-faq
+issue-tracking
+july-2021---new-features-fixit-stability-security-fixes-interop-fixes-and-more
+layout-test-contest
+network-speed-experiments
+omnibox-history-provider
+platform-privacy
+quic
+rvalue-references
+searchbox
+security-keys
+servicification
+spdy
+sts
+tab-to-search
+teams
+testing-chrome-ad-filtering
+throttling
+updates
+user-experience
+x-subresources
+.gitignore
+OWNERS
+apple-touch-icon.png.sha1
+favicon.ico.sha1
+index.md
+robots.txt.njk
+site.json
+sitemap.xml.njk
+.eleventy.js
+.firebaserc
+.gclient
+.gitignore
+.style.yapf
+.vpython3
+AUTHORS
+CONTENT_OWNERS
+DEPS
+DIR_METADATA
+OWNERS
+PRESUBMIT.cfg
+PRESUBMIT.py
+README.md
+navbar.md
+node_modules.tar.gz.sha1
+npmw
+originals.tar.gz.sha1
+package-lock.json
+package.json[
+119120121122123124125126127128]
+defined in[`navigation_params.h`](https://code.google.com/p/chromium/codesearch/#chromium/src/content/common/navigation_params.h).[`frame_messages.h`](https://code.google.com/p/chromium/codesearch/#chromium/src/content/common/frame_messages.h)defines the `ParamTraits` specializations for the structures using the[`IPC_STRUCT_TRAITS`](https://code.google.com/p/chromium/codesearch/#chromium/src/ipc/param_traits_macros.h)family of macros.### Sending messagesYou send messages through "channels" (see below). In the browser, the
+119120121122123124125126127128
+defined in[`navigation_params.h`](https://code.google.com/p/chromium/codesearch/#chromium/src/content/common/navigation_params.h).[`frame_messages.h`](https://code.google.com/p/chromium/codesearch/#chromium/src/content/common/frame_messages.h)defines the `ParamTraits` specializations for the structures using the[`IPC_STRUCT_TRAITS`](https://code.google.com/p/chromium/codesearch/#chromium/src/ipc/param_traits_macros.h)family of macros.### Sending messagesYou send messages through "channels" (see below). In the browser, the
+
+Láti lọ rẹ́rẹ́ kọjá ojú sà sínú koodu rẹ̀ (architecture), KIBS n ṣiṣẹ́ gẹ́gẹ́ bí Ìpìlẹ̀ Alákòóso AI fún Iṣẹ́ Aládàáṣe (Event-Driven AI Orchestration Framework). Ètò rẹ̀ kò gbójú lé kí AI kàn máa sọ̀rọ̀ (chat), kàkà bẹ́ẹ̀ ó dásílẹ̀ láti jẹ́ kí AI ṣiṣẹ́, rò, ṣètò, kí ó sì bá àwọn ètò kọ̀m̀pútà mìíràn sọ̀rọ̀.
+Àwọn ìpele iṣẹ́ rẹ̀ ní ẹ̀kúnrẹ́rẹ́ nìwọ̀nyí:
+## 1. ⚙️ Kernal Dynamic Pipeline (Iṣẹ́ Inú Lọ́hùn)
+Inú koodu Lisp/Scheme (kernel.scm) ni ọpọlọ ètò yìí wà. Ó ń ṣakoso:
+
+* Event Loop Dispatcher (events.scm): Ètò náà kì í dúró de olùṣàmúlò. Bọ́ tọ́ bọ́ tọ́ ni àwọn iṣẹ́ ń dá ṣẹlẹ̀ nípa lílo Asynchronous Events.
+* State Machine Controller (state.scm): Ó ń pa "iranti" àti ipò tí iṣẹ́ kọ̀ọ̀kan wà mọ́ (State Management) kí AI má baà gbàgbé ohun tó ń ṣe.
+
+## 2. 🤖 Multi-Agent Coordination (Báwo ni àwọn AI ṣe n ṣiṣẹ́ papọ̀?)
+Kò kàn lo AI ẹyọ kan. Ètò rẹ̀ pín iṣẹ́ fún ọ̀pọ̀lọpọ̀ aṣojú (/agents):
+
+* Agent Registry (registry.scm): Pẹpẹ yìí ń ṣe àkọsílẹ̀ gbogbo AI tó wà lórí ètò náà, agbára wọn, àti iṣẹ́ tí wọ́n mọ̀ ọ́n ṣe.
+* Orchestrator System (orchestrator.scm): Bi Alága tàbí Atọ́nisọ́nà, ó ń pín iṣẹ́ ńlá dídíjú sí wẹ́wẹ́ fún àwọn AI Agents ọ̀tọ̀ọ̀tọ̀. Fún àpẹẹrẹ: AI Agent Kínní lè gba data, AI Agent Kejì á ṣe àyẹ̀wò rẹ̀, AI Agent Kẹta á sì gbé e sínú Blockchain.
+
+## 3. 🌐 Web Application & Bridge (Asopọ Layer)
+Aṣojú AI náà kò sápamọ́ sínú kọ̀m̀pútà nìkan; ó ní ojú tí a fi ń rí i lórí ẹ̀rọ (UI):
+
+* Full Stack Server Pipeline: Lati index.html -> kibs.js (JavaScript Layer) -> ó ń lo WebSockets/HTTP láti sọ̀rọ̀ tààrà sí server.scm àti router.scm ti Scheme. Èyí n fún AI ní agbára láti gba data láti ojú-ewé rẹ láìsí ìfàsẹ́yìn (Real-time update).
+
+## 4. 🗂️ The Contacts System (Ètò Data vCard)
+Ìyàlẹ́nu nìwóyi: KIBS ní ètò àkànṣe fún ìṣàkóso data ènìyàn (/contacts):
+
+* Automated Ingestion: Faili bíi inbox.vcf (orúkọ, tẹlifóònù, email ti fórò) ni ètò náà lè kà tààrà nípa lilo parser.scm.
+* AI Contact Management: Gẹ́gẹ́ bí ètò rẹ̀ ṣe fihàn, AI le ṣàyẹ̀wò (validator.scm), to rẹ lẹ́sẹẹsẹ, kó sì ṣàkóso data ènìyàn láti lò ó fún iṣẹ́ ìwòye mìíràn.
+
+## 📊 Ìbéèrè Ìṣiṣẹ́ Ètò Gbogboògbò (Bootstrap Lifecycle)
+Bí o bá tẹ bọ́tìnì láti bẹ̀rẹ̀ ètò yìí, bọ́ṣe ń ṣiṣẹ́ nìyí lọ́wọ́ọ̀wọ́ nínú koodu rẹ̀:
+$$\text{Boot} \rightarrow \text{Configure} \rightarrow \text{Init Kernel} \rightarrow \text{Register Services/Agents} \rightarrow \text{Start HTTP} \rightarrow \text{Route \& Dispatch}$$ 
+Bí o bá fẹ́ jinlẹ̀ sí i nínú rẹ̀, n kò lè:
+
+* Kọ àpẹẹrẹ koodu Scheme (.scm) tí wọ́n lè lò láti kọ AI Agent nínú KIBS
+* Fi bí a ṣe ń ṣe Git clone àti ìṣètò (setup) rẹ̀ lórí kọ̀m̀pútà rẹ hàn ọ́
+
+
+
+
+
+
