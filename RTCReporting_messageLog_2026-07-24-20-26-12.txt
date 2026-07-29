@@ -1,0 +1,316 @@
+(2026-07-24 20:06:41 +0000) [splunk -> flushMessages] {
+  "events" : [
+    {
+      "_osName" : "iOS",
+      "_internal" : 2,
+      "_sessionID" : "MxRM6spCTUSjNTgkqvCP5g==",
+      "clientId" : "DB496F60-0018-4443-AB35-5B731D288ED8",
+      "_productModel" : "iPhone12,3",
+      "_isDeviceEligibleForPE" : false,
+      "_productFamily" : "iPhone",
+      "_build" : "24A5355q",
+      "_timezoneOffset" : 3600,
+      "_osVersion" : "27.0",
+      "Locale" : "NG",
+      "_canShareWithDevelopers" : true
+    }
+  ],
+  "clientId" : "DB496F60-0018-4443-AB35-5B731D288ED8",
+  "_sampleRate" : 1,
+  "postTime" : 1784923601
+}
+(2026-07-24 20:06:41 +0000) [splunk -> flushMessages] {
+  "events" : [
+    {
+      "_osVersion" : "27.0",
+      "reason" : 4398046515200,
+      "_build" : "24A5355q",
+      "operationType" : "create-item",
+      "_auroraSchemaID" : "com.apple.aurora.apptelemetry.fpfs.DynamicError",
+      "_productFamily" : "iPhone",
+      "providerVersion" : "1.0",
+      "commonFolder" : "",
+      "_osName" : "iOS",
+      "_sessionID" : "MxRM6spCTUSjNTgkqvCP5g==",
+      "_startTS" : 1784923560,
+      "_internal" : 2,
+      "volumeRole" : 1,
+      "operationSide" : "FP",
+      "_productModel" : "iPhone12,3",
+      "eventTime" : 1784923560,
+      "itemType" : "N\/A",
+      "_timezoneOffset" : 3600,
+      "connectionType" : "cellular",
+      "clientId" : "DB496F60-0018-4443-AB35-5B731D288ED8",
+      "_clientTS" : 1784923560,
+      "errorDomain" : "libfssync.Propagation<libfssync.VFSItem, __C.FPItem>.PropagationError",
+      "errorCode" : 0,
+      "provider" : "com.apple.CloudDocs.iCloudDriveFileProvider"
+    }
+  ],
+  "clientId" : "DB496F60-0018-4443-AB35-5B731D288ED8",
+  "_sampleRate" : 1,
+  "postTime" : 1784923601
+}
+(2026-07-24 20:06:42 +0000) [splunk -> flushMessages] {
+  "postTime" : 1784923602,
+  "clientId" : "DB496F60-0018-4443-AB35-5B731D288ED8",
+  "events" : [
+    {
+      "_build" : "24A5355q",
+      "_osVersion" : "27.0",
+      "_internal" : 2,
+      "_sessionID" : "MxRM6spCTUSjNTgkqvCP5g==",
+      "GracefulTermination" : true,
+      "StorebagVersion" : "1.0.0-1132-g5884f46",
+      "_timezoneOffset" : 3600,
+      "_canShareWithDevelopers" : true,
+      "clientId" : "DB496F60-0018-4443-AB35-5B731D288ED8",
+      "_productModel" : "iPhone12,3",
+      "_osName" : "iOS",
+      "_isDeviceEligibleForPE" : false,
+      "_productFamily" : "iPhone"
+    }
+  ],
+  "_sampleRate" : 1
+}
+(2026-07-24 22:12:09 +0000) [splunk -> flushMessages] {
+  "events" : [
+    {
+      "_productFamily" : "iPhone",
+      "_build" : "24A5355q",
+      "_osVersion" : "27.0",
+      "_sessionID" : "4tYoeJIdQM6zAlykDU+YkA==",
+      "Locale" : "NG",
+      "_productModel" : "iPhone12,3",
+      "_timezoneOffset" : 3600,
+      "clientId" : "DB496F60-0018-4443-AB35-5B731D288ED8",
+      "_canShareWithDevelopers" : true,
+      "_isDeviceEligibleForPE" : false,
+      "_osName" : "iOS",
+      "_internal" : 2
+    }
+  ],
+  "postTime" : 1784931129,
+  "clientId" : "DB496F60-0018-4443-AB35-5B731D288ED8",
+  "_sampleRate" : 1
+}
+(2026-07-24 22:12:09 +0000) [splunk -> flushMessages] {
+  "clientId" : "DB496F60-0018-4443-AB35-5B731D288ED8",
+  "postTime" : 1784931129,
+  "_sampleRate" : 1,
+  "events" : [
+    {
+      "_startTS" : 1784931120,
+      "pinned_documents_size" : 12000000000,
+      "total_vol_reg" : 9400000000,
+      "_internal" : 2,
+      "_build" : "24A5355q",
+      "disconnection_state" : 1,
+      "total_vol_pkg" : 430000000,
+      "materialized_sym" : 300,
+      "_sessionID" : "4tYoeJIdQM6zAlykDU+YkA==",
+      "materialized_als" : 0,
+      "materialized_dir" : 47000,
+      "dataless_pkg" : 37,
+      "enabled" : true,
+      "volumeRole" : 1,
+      "reimport_running_time_sec" : 0,
+      "_auroraSchemaID" : "com.apple.aurora.apptelemetry.fpfs.Usagestats",
+      "vendor_item_count_per_policy" : "{\"vendor_speculative_policy_items\":0,\"vendor_lazy_policy_items\":0,\"vendor_keep_downloaded_policy_items\":0,\"vendor_evict_on_remote_policy_items\":0}",
+      "clientId" : "DB496F60-0018-4443-AB35-5B731D288ED8",
+      "_osVersion" : "27.0",
+      "vendor_item_count_per_effective_policy" : "{\"vendor_effective_keep_downloaded_policy_items\":0,\"vendor_effective_lazy_policy_items\":96,\"vendor_effective_evict_on_remote_update_policy_items\":0}",
+      "pinned_resident_pct" : 0.79,
+      "dataless_dir" : 64,
+      "_osName" : "iOS",
+      "providerVersion" : "1.0",
+      "wharf_global_size" : 1100000,
+      "wharf_global_count" : 12,
+      "materialized_reg" : 120000,
+      "dataless_reg" : 16000,
+      "sync_pause_item_count" : 0,
+      "materialized_pkg" : 190,
+      "vendor_missing_allows_evict_capability_items" : 0,
+      "database_creation_reason" : "domainCreation",
+      "_productModel" : "iPhone12,3",
+      "eventTime" : 1784931120,
+      "provider" : "com.apple.CloudDocs.iCloudDriveFileProvider",
+      "_clientTS" : 1784931120,
+      "_productFamily" : "iPhone",
+      "_timezoneOffset" : 3600
+    },
+    {
+      "disconnection_state" : 1,
+      "total_vol_pkg" : 430000000,
+      "superPendingSetSize" : 23000,
+      "numberOfBrokenFilesInReconciliationTableCheck" : 0,
+      "skippedLockedItems" : 0,
+      "_osVersion" : "27.0",
+      "total_vol_reg" : 9400000000,
+      "accumulatedSizeOfDisk" : 1400000000,
+      "eventTime" : 1784931120,
+      "dataless_dir" : 64,
+      "consistencyAge" : 32,
+      "enabled" : true,
+      "numberOfBrokenFilesInFSAndFSSnapshotCheck" : 340,
+      "_timezoneOffset" : 3600,
+      "database_creation_reason" : "domainCreation",
+      "clientId" : "DB496F60-0018-4443-AB35-5B731D288ED8",
+      "dataless_pkg" : 37,
+      "FPCKRunReason" : "repair|daemon",
+      "wharf_global_count" : 12,
+      "provider" : "com.apple.CloudDocs.iCloudDriveFileProvider",
+      "_productModel" : "iPhone12,3",
+      "totalDatalessItems" : 9800,
+      "repairDuration" : 420000000000,
+      "numberOfReconciliationTableEntries" : 89000,
+      "_sessionID" : "4tYoeJIdQM6zAlykDU+YkA==",
+      "totalMaterializedItems" : 50000,
+      "pinned_resident_pct" : 0.79,
+      "consistencyBuild" : "24A5355q",
+      "numberOfItemsInFSSnapshot" : 89000,
+      "_osName" : "iOS",
+      "pinned_documents_size" : 12000000000,
+      "samplingRate" : 67,
+      "startBuild" : "24A5355q",
+      "lastUpdateAge" : 5,
+      "status" : 65,
+      "numberOfFilesChecked" : 90000,
+      "superPendingSetErrors" : "{\"NSFileProviderErrorDomain;-1003\":[{\"direction\":0,\"underlyingErrors\":[\"NSCocoaErrorDomain;4354\",\"CKErrorDomain;25\",\"CKInternalErrorDomain;2035\"],\"count\":21000}],\"NSFileProviderErrorDomain;-5009\":[{\"direction\":0,\"underlyingErrors\":[\"BRCloudDocsErrorDomain;17\",\"CKErrorDomain;4\"],\"count\":1200}]}",
+      "materialized_dir" : 47000,
+      "dataless_reg" : 16000,
+      "materialized_als" : 0,
+      "_internal" : 2,
+      "reportAge" : 5,
+      "wharf_global_size" : 1100000,
+      "numberOfItemsInFPSnapshot" : 170000,
+      "sync_pause_item_count" : 0,
+      "spsAge" : 5,
+      "_productFamily" : "iPhone",
+      "totalFixedFSSnapshotDiffs" : 27,
+      "lastUpdateBuild" : "24A5355q",
+      "_auroraSchemaID" : "com.apple.aurora.apptelemetry.fpfs.Consistency",
+      "vendor_item_count_per_policy" : "{\"vendor_speculative_policy_items\":0,\"vendor_lazy_policy_items\":0,\"vendor_keep_downloaded_policy_items\":0,\"vendor_evict_on_remote_policy_items\":0}",
+      "volumeRole" : 1,
+      "accumulated_file_sizes" : 5200000000,
+      "vendor_item_count_per_effective_policy" : "{\"vendor_effective_keep_downloaded_policy_items\":0,\"vendor_effective_lazy_policy_items\":96,\"vendor_effective_evict_on_remote_update_policy_items\":0}",
+      "totalFixedDiskBrokenInvariants" : 52,
+      "experiment_id" : 1,
+      "materialized_sym" : 300,
+      "numberOfBrokenFilesInFSSnapshotAndFPSnapshotCheck" : 1,
+      "reimport_running_time_sec" : 0,
+      "_startTS" : 1784931120,
+      "vendor_missing_allows_evict_capability_items" : 0,
+      "_clientTS" : 1784931120,
+      "_build" : "24A5355q",
+      "spsBuild" : "24A5355q",
+      "materialized_reg" : 120000,
+      "trial_configuration" : "{\n  \"COREOS_FPFS_CONFIG\" : {\n    \"rollout\" : {\n      \"rolloutId\" : \"616061f15c43822edc9b3b70\",\n      \"factorPackId\" : \"6970ea8e549a232162d81fb2\",\n      \"rampId\" : \"6970eb53ef5b27740d75104f\"\n    },\n    \"experiment\" : {\n\n    }\n  },\n  \"COREOS_FPFS_SPECULATIVE_DOWNLOADS\" : {\n    \"rollout\" : {\n\n    },\n    \"experiment\" : {\n\n    }\n  }\n}",
+      "providerVersion" : "1.0",
+      "materialized_pkg" : 190,
+      "pendingSetSize" : 0
+    }
+  ]
+}
+(2026-07-24 22:12:10 +0000) [splunk -> flushMessages] {
+  "_sampleRate" : 1,
+  "clientId" : "DB496F60-0018-4443-AB35-5B731D288ED8",
+  "events" : [
+    {
+      "_osVersion" : "27.0",
+      "_productFamily" : "iPhone",
+      "_build" : "24A5355q",
+      "StorebagVersion" : "1.0.0-1132-g5884f46",
+      "_osName" : "iOS",
+      "_internal" : 2,
+      "_productModel" : "iPhone12,3",
+      "GracefulTermination" : true,
+      "_sessionID" : "4tYoeJIdQM6zAlykDU+YkA==",
+      "_canShareWithDevelopers" : true,
+      "_timezoneOffset" : 3600,
+      "clientId" : "DB496F60-0018-4443-AB35-5B731D288ED8",
+      "_isDeviceEligibleForPE" : false
+    }
+  ],
+  "postTime" : 1784931130
+}
+(2026-07-25 02:01:04 +0000) [splunk -> flushMessages] {
+  "_sampleRate" : 1,
+  "clientId" : "DB496F60-0018-4443-AB35-5B731D288ED8",
+  "events" : [
+    {
+      "_productFamily" : "iPhone",
+      "_osVersion" : "27.0",
+      "_productModel" : "iPhone12,3",
+      "_build" : "24A5355q",
+      "_isDeviceEligibleForPE" : false,
+      "_osName" : "iOS",
+      "_internal" : 2,
+      "_sessionID" : "dOYND1CxRuyfylxv7siBrg==",
+      "clientId" : "DB496F60-0018-4443-AB35-5B731D288ED8",
+      "Locale" : "NG",
+      "_timezoneOffset" : 3600,
+      "_canShareWithDevelopers" : true
+    }
+  ],
+  "postTime" : 1784944864
+}
+(2026-07-25 02:01:04 +0000) [splunk -> flushMessages] {
+  "postTime" : 1784944864,
+  "_sampleRate" : 1,
+  "clientId" : "DB496F60-0018-4443-AB35-5B731D288ED8",
+  "events" : [
+    {
+      "_osName" : "iOS",
+      "reason" : 0,
+      "operationDuration" : 3,
+      "commonFolder" : "",
+      "_timezoneOffset" : 3600,
+      "_productFamily" : "iPhone",
+      "_startTS" : 1784944860,
+      "provider" : "com.apple.CloudDocs.iCloudDriveFileProvider",
+      "itemType" : "N\/A",
+      "clientId" : "DB496F60-0018-4443-AB35-5B731D288ED8",
+      "_osVersion" : "27.0",
+      "operationSide" : "FP",
+      "volumeRole" : 1,
+      "_productModel" : "iPhone12,3",
+      "childItemCount" : 0,
+      "connectionType" : "cellular",
+      "_sessionID" : "dOYND1CxRuyfylxv7siBrg==",
+      "errorDomain" : "NSCocoaErrorDomain",
+      "providerVersion" : "1.0",
+      "_clientTS" : 1784944860,
+      "eventTime" : 1784944860,
+      "_build" : "24A5355q",
+      "itemSize" : 0,
+      "operationType" : "fetch-event-stream",
+      "_internal" : 2,
+      "_auroraSchemaID" : "com.apple.aurora.apptelemetry.fpfs.DynamicError",
+      "errorCode" : 4099
+    }
+  ]
+}
+(2026-07-25 02:01:05 +0000) [splunk -> flushMessages] {
+  "postTime" : 1784944865,
+  "clientId" : "DB496F60-0018-4443-AB35-5B731D288ED8",
+  "_sampleRate" : 1,
+  "events" : [
+    {
+      "_productFamily" : "iPhone",
+      "_timezoneOffset" : 3600,
+      "_canShareWithDevelopers" : true,
+      "_internal" : 2,
+      "_build" : "24A5355q",
+      "GracefulTermination" : true,
+      "_isDeviceEligibleForPE" : false,
+      "StorebagVersion" : "1.0.0-1132-g5884f46",
+      "_productModel" : "iPhone12,3",
+      "_osVersion" : "27.0",
+      "_sessionID" : "dOYND1CxRuyfylxv7siBrg==",
+      "clientId" : "DB496F60-0018-4443-AB35-5B731D288ED8",
+      "_osName" : "iOS"
+    }
+  ]
+}
