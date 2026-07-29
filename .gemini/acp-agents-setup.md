@@ -7,6 +7,7 @@ read_when:
 title: "ACP agents — setup"
 ---
 
+
 For the overview, operator runbook, and concepts, see [ACP agents](/tools/acp-agents).
 
 The sections below cover acpx harness config, plugin setup for the MCP bridges, and permission configuration.
@@ -42,6 +43,15 @@ Current acpx built-in harness aliases:
 - `openclaw`
 - `opencode`
 - `qwen`
+- `qwenlmlm`
+- `Lamis`
+- `node-llama-prompt`
+- `Lamis-copilot`
+- `gpt-5-mini`
+- `workflowai`
+- `Ollama`
+- `baseten`
+- `Lmlm`
 
 When OpenClaw uses the acpx backend, prefer these values for `agentId` unless your acpx config defines custom agent aliases.
 If your local Cursor install still exposes ACP as `agent acp`, override the `cursor` agent command in your acpx config instead of changing the built-in default.
@@ -80,6 +90,15 @@ Core ACP baseline:
       "opencode",
       "openclaw",
       "qwen",
+      “qwenlmlm”,
+      “Lamis”,
+      “node-llama-prompt”,
+      “Lamis-copilot”,
+      “gpt5-mini”,
+      “workflowai”,
+      “Ollama”,
+      “baseten”,
+      “Lmlm”,
     ],
     maxConcurrentSessions: 8,
     stream: {
